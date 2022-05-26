@@ -1,9 +1,27 @@
-* { border: 1px solid black; }
+/* * { border: 1px solid black; } */
+
 
 
 body {
-	font-family: 'Comic Sans', sans-serif;
+	font-family: 'Lucida Bright', serif;
 	margin: 0px;
+}
+
+header {
+	background-color: #ADA0A6;
+	height: 15%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+main {
+	background-color: #D2CBCB;
+	height: 85%;
+}
+
+.days {
+	color: #7D938A;
 }
 
 .username {
@@ -13,28 +31,116 @@ body {
 	margin-right: 20px;
 }
 
+.username > p {
+	margin-left: 6px;
+	margin-right: 6px;
+}
+
 .nav-bar {
 	display: flex;
 	align-items: center;
-	margin-left: 20px;
-}
-
-h2 {
-	margin-left: 20px;
-}
-
-.grid {
-	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	grid-gap: 10px;
-	padding: 20px;
-}
-
-.url {
-	background-color: lightgray;
+	justify-content: space-between;
 	margin-left: 20px;
 	margin-right: 20px;
 }
 
+.nav {
+	display: flex;
+	align-items: center;
+	margin-left: 15px;
+}
+
+.nav > p {
+	margin-left: 7px;
+	margin-right: 5px;
+	font-size: 20px;
+}
+
+.download,
+.app {
+	margin-left: 20px;
+}
+
+h1 {
+	font-size: 30px;
+	margin: 0px;
+}
+
+h2 {
+	margin-left: 30px;
+}
+
+.grid {
+	display: grid;
+	width: 100vw;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 20px;
+	padding: 20px;
+}
+
+.dog-one {
+	box-shadow: 3px 3px 5px grey;
+	background-color: white;
+}
+
+.photo > img {
+	height: 250px;
+}
+
+.name > p {
+	display: flex;
+	flex-direction: column;
+}
+
+.dog-name,
+.city {
+	font-size: 20px;
+}
+
+.dog-name,
+.locate,
+.waiting {
+	padding-top: 10px;
+	margin-bottom: 0px;	
+}
+
+.date,
+.locate {
+	font-size: 15px;
+}
+
+.date,
+.city,
+.days {
+	margin-top:3px;
+}
+
+.date {
+	color: dimgray;
+}
+
+.days {
+	font-size: 30px;
+
+}
+
+
+
+.url {
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	color: dimgrey;
+	background-color: #E8E8E8;
+	height: 35px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.name,
+.location,
+.days-waiting  {
+	margin-left: 18px;
+}
 
 
