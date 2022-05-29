@@ -1,7 +1,3 @@
-/* * { border: 1px solid black; } */
-
-
-
 body {
 	font-family: 'Lucida Bright', serif;
 	margin: 0px;
@@ -9,7 +5,6 @@ body {
 
 header {
 	background-color: #ADA0A6;
-	height: 15%;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -17,7 +12,14 @@ header {
 
 main {
 	background-color: #D2CBCB;
-	height: 85%;
+}
+
+svg {
+	fill: white;
+}
+
+.purple {
+	fill: #301934;
 }
 
 .days {
@@ -34,6 +36,7 @@ main {
 .username > p {
 	margin-left: 6px;
 	margin-right: 6px;
+	color: #301934;
 }
 
 .nav-bar {
@@ -42,6 +45,7 @@ main {
 	justify-content: space-between;
 	margin-left: 20px;
 	margin-right: 20px;
+	margin-bottom: 15px;
 }
 
 .nav {
@@ -52,8 +56,13 @@ main {
 
 .nav > p {
 	margin-left: 7px;
-	margin-right: 5px;
-	font-size: 20px;
+	margin-right: 12px;
+	font-size: 17px;
+	color: #301934;
+}
+
+#share {
+	color: white;
 }
 
 .download,
@@ -62,29 +71,45 @@ main {
 }
 
 h1 {
-	font-size: 30px;
+	font-size: 40px;
 	margin: 0px;
+	color: #301934;
 }
 
 h2 {
+	margin: 0px;
 	margin-left: 30px;
+	padding-top: 25px;
+	color:  #301934;
 }
 
 .grid {
 	display: grid;
-	width: 100vw;
-	grid-template-columns: repeat(4, 1fr);
+	grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));;
 	grid-gap: 20px;
 	padding: 20px;
 }
 
-.dog-one {
+.dog-card {
 	box-shadow: 3px 3px 5px grey;
 	background-color: white;
+	width: 374px;
 }
 
-.photo > img {
+.photo {
+	position: relative;
+}
+
+.dog-photo {
 	height: 250px;
+	display: block;
+}
+
+.heart {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 20px;
 }
 
 .name > p {
@@ -123,8 +148,6 @@ h2 {
 	font-size: 30px;
 
 }
-
-
 
 .url {
 	display: flex;

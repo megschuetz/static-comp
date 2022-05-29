@@ -6,30 +6,31 @@
 	<body>
 		<header>
 			<section class='username'>
-				<img src="./assets/user.svg" width="18" height="16">
+				<svg width="20" height="20"><path d="M12,12A6,6,0,1,0,6,6,6.006,6.006,0,0,0,12,12ZM12,2A4,4,0,1,1,8,6,4,4,0,0,1,12,2Z"/><path d="M12,14a9.01,9.01,0,0,0-9,9,1,1,0,0,0,2,0,7,7,0,0,1,14,0,1,1,0,0,0,2,0A9.01,9.01,0,0,0,12,14Z"/></svg>
 				<p>UserName</p>
 				<img src="./assets/down-arrow.png" width="20" height="20"> 
 			</section>
 			<section class="nav-bar">
 				<div class="nav">
-					<img src="./assets/paper-plane.svg" width="20" height="20">
-					<p>SHARE</p>
-					<img class='download' src="./assets/download.svg" width="20" height="20">
+					<svg width="25" height="25"><path d="M23.119.882a2.966,2.966,0,0,0-2.8-.8l-16,3.37a4.995,4.995,0,0,0-2.853,8.481L3.184,13.65a1,1,0,0,1,.293.708v3.168a2.965,2.965,0,0,0,.3,1.285l-.008.007.026.026A3,3,0,0,0,5.157,20.2l.026.026.007-.008a2.965,2.965,0,0,0,1.285.3H9.643a1,1,0,0,1,.707.292l1.717,1.717A4.963,4.963,0,0,0,15.587,24a5.049,5.049,0,0,0,1.605-.264,4.933,4.933,0,0,0,3.344-3.986L23.911,3.715A2.975,2.975,0,0,0,23.119.882ZM4.6,12.238,2.881,10.521a2.94,2.94,0,0,1-.722-3.074,2.978,2.978,0,0,1,2.5-2.026L20.5,2.086,5.475,17.113V14.358A2.978,2.978,0,0,0,4.6,12.238Zm13.971,7.17a3,3,0,0,1-5.089,1.712L11.762,19.4a2.978,2.978,0,0,0-2.119-.878H6.888L21.915,3.5Z"/></svg>
+					<p id="share">SHARE</p>
+					<svg class="purple" width="25" height="25"><path d="M9.878,18.122a3,3,0,0,0,4.244,0l3.211-3.211A1,1,0,0,0,15.919,13.5l-2.926,2.927L13,1a1,1,0,0,0-1-1h0a1,1,0,0,0-1,1l-.009,15.408L8.081,13.5a1,1,0,0,0-1.414,1.415Z"/><path d="M23,16h0a1,1,0,0,0-1,1v4a1,1,0,0,1-1,1H3a1,1,0,0,1-1-1V17a1,1,0,0,0-1-1H1a1,1,0,0,0-1,1v4a3,3,0,0,0,3,3H21a3,3,0,0,0,3-3V17A1,1,0,0,0,23,16Z"/></svg>
 					<p>SAVED</p>
-					<img class="app" src="./assets/envelope.svg" width="20" height="20">
+					<svg class="purple" width="25" height="25"><path d="M19,1H5A5.006,5.006,0,0,0,0,6V18a5.006,5.006,0,0,0,5,5H19a5.006,5.006,0,0,0,5-5V6A5.006,5.006,0,0,0,19,1ZM5,3H19a3,3,0,0,1,2.78,1.887l-7.658,7.659a3.007,3.007,0,0,1-4.244,0L2.22,4.887A3,3,0,0,1,5,3ZM19,21H5a3,3,0,0,1-3-3V7.5L8.464,13.96a5.007,5.007,0,0,0,7.072,0L22,7.5V18A3,3,0,0,1,19,21Z"/></svg>
 					<p>APPLICATIONS</p>
 				</div>
 				<div class="shelter">
-					<h1>Shelter</h1>
+					<h1>Doggo Shelter</h1>
 				</div>
 			</section>
 		</header>
 		<main>
 			<h2>Adoptable Pets</h2>
 			<article class='grid'>
-				<section class="dog-one">
+				<section class="dog-card">
 					<div class="photo">
-						<img src="./dogs/golden.jpg">
+						<img class="heart" src="./assets/heart.png" width="40" height="40">
+						<img class="dog-photo" src="./dogs/golden.jpg">
 					</div>
 					<section class="description">
 						<div class="name">
@@ -47,9 +48,10 @@
 						</div>
 					</section>
 				</section>
-				<section class="dog-one">
+				<section class="dog-card">
 					<div class="photo">
-						<img src="./dogs/chocolate.jpg">
+						<img class="heart" src="./assets/heart.png" width="40" height="40">
+						<img class="dog-photo" src="./dogs/chocolate.jpg">
 					</div>
 					<section class="description">
 						<div class="name">
@@ -67,9 +69,10 @@
 						</div>
 					</section>
 				</section>
-				<section class="dog-one">
+				<section class="dog-card">
 					<div class="photo">
-						<img src="./dogs/becky.jpg">
+						<img class="heart" src="./assets/heart.png" width="40" height="40">
+						<img class="dog-photo" src="./dogs/becky.jpg">
 					</div>
 					<section class="description">
 						<div class="name">
@@ -87,9 +90,10 @@
 						</div>
 					</section>
 				</section>
-				<section class="dog-one">
+				<section class="dog-card">
 					<div class="photo">
-						<img src="./dogs/samantha.jpg">
+						<img class="heart" src="./assets/heart.png" width="40" height="40">
+						<img class="dog-photo" src="./dogs/samantha.jpg">
 					</div>
 					<section class="description">
 						<div class="name">
@@ -107,9 +111,10 @@
 						</div>
 					</section>
 				</section>
-				<section class="dog-one">
+				<section class="dog-card">
 					<div class="photo">
-						<img src="./dogs/greg.jpg">
+						<img class="heart" src="./assets/heart.png" width="40" height="40">
+						<img class="dog-photo" src="./dogs/greg.jpg">
 					</div>
 					<section class="description">
 						<div class="name">
@@ -127,9 +132,10 @@
 						</div>
 					</section>
 				</section>
-				<section class="dog-one">
+				<section class="dog-card">
 					<div class="photo">
-						<img src="./dogs/fluffy.jpg">
+						<img class="heart" src="./assets/heart.png" width="40" height="40">
+						<img class="dog-photo" src="./dogs/fluffy.jpg">
 					</div>
 					<section class="description">
 						<div class="name">
@@ -147,9 +153,10 @@
 						</div>
 					</section>
 				</section>
-				<section class="dog-one">
+				<section class="dog-card">
 					<div class="photo">
-						<img src="./dogs/tilly.jpg">
+						<img class="heart" src="./assets/heart.png" width="40" height="40">
+						<img class="dog-photo" src="./dogs/tilly.jpg">
 					</div>
 					<section class="description">
 						<div class="name">
@@ -167,9 +174,10 @@
 						</div>
 					</section>
 				</section>
-				<section class="dog-one">
+				<section class="dog-card">
 					<div class="photo">
-						<img src="./dogs/sandy.jpg">
+						<img class="heart" src="./assets/heart.png" width="40" height="40">
+						<img class="dog-photo" src="./dogs/sandy.jpg">
 					</div>
 					<section class="description">
 						<div class="name">
@@ -190,12 +198,4 @@
 			</article>
 		</main>
 	</body>
-      
-
-
-
-
-
-
-
 </html>
