@@ -1,3 +1,3 @@
 ## Static Comp
 
-![screenshot](https://user-images.githubusercontent.com/98415017/170894621-b4fabf79-fc03-4990-bcb8-702e2b5558aa.png)
+![screenshot]([https://user-images.githubusercontent.com/98415017/170894621-b4fabf79-fc03-4990-bcb8-702e2b5558aa.png](https://user-images.githubusercontent.com/98415017/170894714-b6457c9b-8f49-4d6d-93fe-6bfcb1d16ebe.png)
